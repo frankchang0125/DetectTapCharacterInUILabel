@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		093226601E41FACB00E81064 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0932265F1E41FACB00E81064 /* AppDelegate.swift */; };
+		093226621E41FACB00E81064 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093226611E41FACB00E81064 /* ViewController.swift */; };
+		093226651E41FACB00E81064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093226631E41FACB00E81064 /* Main.storyboard */; };
+		093226671E41FACB00E81064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 093226661E41FACB00E81064 /* Assets.xcassets */; };
+		0932266A1E41FACB00E81064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 093226681E41FACB00E81064 /* LaunchScreen.storyboard */; };
+		093226751E41FACB00E81064 /* DetectTapCharacterInUILabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093226741E41FACB00E81064 /* DetectTapCharacterInUILabelTests.swift */; };
+		093226801E41FACB00E81064 /* DetectTapCharacterInUILabelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0932267F1E41FACB00E81064 /* DetectTapCharacterInUILabelUITests.swift */; };
+		3435B5FB3565CF278FC1EB35 /* Pods_DetectTapCharacterInUILabelUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B09AC2050C491693DB0E4B1 /* Pods_DetectTapCharacterInUILabelUITests.framework */; };
+		9B597E0BC223C1FAB44789EC /* Pods_DetectTapCharacterInUILabel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11AE59FE8E50347B5DC5E28F /* Pods_DetectTapCharacterInUILabel.framework */; };
+		9D6BE33F501783A17004D747 /* Pods_DetectTapCharacterInUILabelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E56F9E14C91B2E74CBC2BD3 /* Pods_DetectTapCharacterInUILabelTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		093226711E41FACB00E81064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 093226541E41FACB00E81064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0932265B1E41FACB00E81064;
+			remoteInfo = DetectTapCharacterInUILabel;
+		};
+		0932267C1E41FACB00E81064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 093226541E41FACB00E81064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0932265B1E41FACB00E81064;
+			remoteInfo = DetectTapCharacterInUILabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08D64B71B88E822F182BC85A /* Pods-DetectTapCharacterInUILabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DetectTapCharacterInUILabel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DetectTapCharacterInUILabel/Pods-DetectTapCharacterInUILabel.debug.xcconfig"; sourceTree = "<group>"; };
+		0932265C1E41FACB00E81064 /* DetectTapCharacterInUILabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DetectTapCharacterInUILabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0932265F1E41FACB00E81064 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		093226611E41FACB00E81064 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		093226641E41FACB00E81064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		093226661E41FACB00E81064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		093226691E41FACB00E81064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0932266B1E41FACB00E81064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		093226701E41FACB00E81064 /* DetectTapCharacterInUILabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DetectTapCharacterInUILabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		093226741E41FACB00E81064 /* DetectTapCharacterInUILabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectTapCharacterInUILabelTests.swift; sourceTree = "<group>"; };
+		093226761E41FACB00E81064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0932267B1E41FACB00E81064 /* DetectTapCharacterInUILabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DetectTapCharacterInUILabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0932267F1E41FACB00E81064 /* DetectTapCharacterInUILabelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectTapCharacterInUILabelUITests.swift; sourceTree = "<group>"; };
+		093226811E41FACB00E81064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11AE59FE8E50347B5DC5E28F /* Pods_DetectTapCharacterInUILabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DetectTapCharacterInUILabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1788BDA41F03597A207A3449 /* Pods-DetectTapCharacterInUILabelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DetectTapCharacterInUILabelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DetectTapCharacterInUILabelTests/Pods-DetectTapCharacterInUILabelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BF1FA06B9BA6D3699E99F1B /* Pods-DetectTapCharacterInUILabelUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DetectTapCharacterInUILabelUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DetectTapCharacterInUILabelUITests/Pods-DetectTapCharacterInUILabelUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E56F9E14C91B2E74CBC2BD3 /* Pods_DetectTapCharacterInUILabelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DetectTapCharacterInUILabelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74929600110932E011B69FA5 /* Pods-DetectTapCharacterInUILabelUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DetectTapCharacterInUILabelUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DetectTapCharacterInUILabelUITests/Pods-DetectTapCharacterInUILabelUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B09AC2050C491693DB0E4B1 /* Pods_DetectTapCharacterInUILabelUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DetectTapCharacterInUILabelUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B924A1601D46DCF5AF81FF9A /* Pods-DetectTapCharacterInUILabelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DetectTapCharacterInUILabelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DetectTapCharacterInUILabelTests/Pods-DetectTapCharacterInUILabelTests.release.xcconfig"; sourceTree = "<group>"; };
+		CAE5D40208B38E6DF570C7E0 /* Pods-DetectTapCharacterInUILabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DetectTapCharacterInUILabel.release.xcconfig"; path = "Pods/Target Support Files/Pods-DetectTapCharacterInUILabel/Pods-DetectTapCharacterInUILabel.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		093226591E41FACB00E81064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B597E0BC223C1FAB44789EC /* Pods_DetectTapCharacterInUILabel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0932266D1E41FACB00E81064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6BE33F501783A17004D747 /* Pods_DetectTapCharacterInUILabelTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093226781E41FACB00E81064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3435B5FB3565CF278FC1EB35 /* Pods_DetectTapCharacterInUILabelUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		093226531E41FACB00E81064 = {
+			isa = PBXGroup;
+			children = (
+				0932265E1E41FACB00E81064 /* DetectTapCharacterInUILabel */,
+				093226731E41FACB00E81064 /* DetectTapCharacterInUILabelTests */,
+				0932267E1E41FACB00E81064 /* DetectTapCharacterInUILabelUITests */,
+				0932265D1E41FACB00E81064 /* Products */,
+				D1F4A63A4821D0CBD0E615C9 /* Pods */,
+				18CC209176BB9DA341E469E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0932265D1E41FACB00E81064 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0932265C1E41FACB00E81064 /* DetectTapCharacterInUILabel.app */,
+				093226701E41FACB00E81064 /* DetectTapCharacterInUILabelTests.xctest */,
+				0932267B1E41FACB00E81064 /* DetectTapCharacterInUILabelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0932265E1E41FACB00E81064 /* DetectTapCharacterInUILabel */ = {
+			isa = PBXGroup;
+			children = (
+				0932265F1E41FACB00E81064 /* AppDelegate.swift */,
+				093226611E41FACB00E81064 /* ViewController.swift */,
+				093226631E41FACB00E81064 /* Main.storyboard */,
+				093226661E41FACB00E81064 /* Assets.xcassets */,
+				093226681E41FACB00E81064 /* LaunchScreen.storyboard */,
+				0932266B1E41FACB00E81064 /* Info.plist */,
+			);
+			path = DetectTapCharacterInUILabel;
+			sourceTree = "<group>";
+		};
+		093226731E41FACB00E81064 /* DetectTapCharacterInUILabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				093226741E41FACB00E81064 /* DetectTapCharacterInUILabelTests.swift */,
+				093226761E41FACB00E81064 /* Info.plist */,
+			);
+			path = DetectTapCharacterInUILabelTests;
+			sourceTree = "<group>";
+		};
+		0932267E1E41FACB00E81064 /* DetectTapCharacterInUILabelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0932267F1E41FACB00E81064 /* DetectTapCharacterInUILabelUITests.swift */,
+				093226811E41FACB00E81064 /* Info.plist */,
+			);
+			path = DetectTapCharacterInUILabelUITests;
+			sourceTree = "<group>";
+		};
+		18CC209176BB9DA341E469E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11AE59FE8E50347B5DC5E28F /* Pods_DetectTapCharacterInUILabel.framework */,
+				6E56F9E14C91B2E74CBC2BD3 /* Pods_DetectTapCharacterInUILabelTests.framework */,
+				9B09AC2050C491693DB0E4B1 /* Pods_DetectTapCharacterInUILabelUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D1F4A63A4821D0CBD0E615C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08D64B71B88E822F182BC85A /* Pods-DetectTapCharacterInUILabel.debug.xcconfig */,
+				CAE5D40208B38E6DF570C7E0 /* Pods-DetectTapCharacterInUILabel.release.xcconfig */,
+				1788BDA41F03597A207A3449 /* Pods-DetectTapCharacterInUILabelTests.debug.xcconfig */,
+				B924A1601D46DCF5AF81FF9A /* Pods-DetectTapCharacterInUILabelTests.release.xcconfig */,
+				74929600110932E011B69FA5 /* Pods-DetectTapCharacterInUILabelUITests.debug.xcconfig */,
+				4BF1FA06B9BA6D3699E99F1B /* Pods-DetectTapCharacterInUILabelUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0932265B1E41FACB00E81064 /* DetectTapCharacterInUILabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093226841E41FACB00E81064 /* Build configuration list for PBXNativeTarget "DetectTapCharacterInUILabel" */;
+			buildPhases = (
+				4E147F5F3B07BD9A56097749 /* [CP] Check Pods Manifest.lock */,
+				093226581E41FACB00E81064 /* Sources */,
+				093226591E41FACB00E81064 /* Frameworks */,
+				0932265A1E41FACB00E81064 /* Resources */,
+				C5EF1922CCB8DF47B1ADE0FE /* [CP] Embed Pods Frameworks */,
+				231AAA2A656D5CE3B0BAC36E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DetectTapCharacterInUILabel;
+			productName = DetectTapCharacterInUILabel;
+			productReference = 0932265C1E41FACB00E81064 /* DetectTapCharacterInUILabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0932266F1E41FACB00E81064 /* DetectTapCharacterInUILabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 093226871E41FACB00E81064 /* Build configuration list for PBXNativeTarget "DetectTapCharacterInUILabelTests" */;
+			buildPhases = (
+				1C4E5EA700E821F8274CB21E /* [CP] Check Pods Manifest.lock */,
+				0932266C1E41FACB00E81064 /* Sources */,
+				0932266D1E41FACB00E81064 /* Frameworks */,
+				0932266E1E41FACB00E81064 /* Resources */,
+				35E6636FE13CDFFC50FBC825 /* [CP] Embed Pods Frameworks */,
+				855BC0CCD9D0F1B0D66C8A26 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				093226721E41FACB00E81064 /* PBXTargetDependency */,
+			);
+			name = DetectTapCharacterInUILabelTests;
+			productName = DetectTapCharacterInUILabelTests;
+			productReference = 093226701E41FACB00E81064 /* DetectTapCharacterInUILabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0932267A1E41FACB00E81064 /* DetectTapCharacterInUILabelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0932268A1E41FACB00E81064 /* Build configuration list for PBXNativeTarget "DetectTapCharacterInUILabelUITests" */;
+			buildPhases = (
+				0327A59E27BB9D618DBA3156 /* [CP] Check Pods Manifest.lock */,
+				093226771E41FACB00E81064 /* Sources */,
+				093226781E41FACB00E81064 /* Frameworks */,
+				093226791E41FACB00E81064 /* Resources */,
+				116241C0911F6B2C04F68DD0 /* [CP] Embed Pods Frameworks */,
+				CD50B36D94369B81D88F9B67 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0932267D1E41FACB00E81064 /* PBXTargetDependency */,
+			);
+			name = DetectTapCharacterInUILabelUITests;
+			productName = DetectTapCharacterInUILabelUITests;
+			productReference = 0932267B1E41FACB00E81064 /* DetectTapCharacterInUILabelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		093226541E41FACB00E81064 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Frank Chang";
+				TargetAttributes = {
+					0932265B1E41FACB00E81064 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2C7UR9725U;
+						ProvisioningStyle = Automatic;
+					};
+					0932266F1E41FACB00E81064 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2C7UR9725U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0932265B1E41FACB00E81064;
+					};
+					0932267A1E41FACB00E81064 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2C7UR9725U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0932265B1E41FACB00E81064;
+					};
+				};
+			};
+			buildConfigurationList = 093226571E41FACB00E81064 /* Build configuration list for PBXProject "DetectTapCharacterInUILabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 093226531E41FACB00E81064;
+			productRefGroup = 0932265D1E41FACB00E81064 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0932265B1E41FACB00E81064 /* DetectTapCharacterInUILabel */,
+				0932266F1E41FACB00E81064 /* DetectTapCharacterInUILabelTests */,
+				0932267A1E41FACB00E81064 /* DetectTapCharacterInUILabelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0932265A1E41FACB00E81064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0932266A1E41FACB00E81064 /* LaunchScreen.storyboard in Resources */,
+				093226671E41FACB00E81064 /* Assets.xcassets in Resources */,
+				093226651E41FACB00E81064 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0932266E1E41FACB00E81064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093226791E41FACB00E81064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0327A59E27BB9D618DBA3156 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		116241C0911F6B2C04F68DD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DetectTapCharacterInUILabelUITests/Pods-DetectTapCharacterInUILabelUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C4E5EA700E821F8274CB21E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		231AAA2A656D5CE3B0BAC36E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DetectTapCharacterInUILabel/Pods-DetectTapCharacterInUILabel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35E6636FE13CDFFC50FBC825 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DetectTapCharacterInUILabelTests/Pods-DetectTapCharacterInUILabelTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E147F5F3B07BD9A56097749 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		855BC0CCD9D0F1B0D66C8A26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DetectTapCharacterInUILabelTests/Pods-DetectTapCharacterInUILabelTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5EF1922CCB8DF47B1ADE0FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DetectTapCharacterInUILabel/Pods-DetectTapCharacterInUILabel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD50B36D94369B81D88F9B67 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DetectTapCharacterInUILabelUITests/Pods-DetectTapCharacterInUILabelUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		093226581E41FACB00E81064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093226621E41FACB00E81064 /* ViewController.swift in Sources */,
+				093226601E41FACB00E81064 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0932266C1E41FACB00E81064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093226751E41FACB00E81064 /* DetectTapCharacterInUILabelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		093226771E41FACB00E81064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				093226801E41FACB00E81064 /* DetectTapCharacterInUILabelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		093226721E41FACB00E81064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0932265B1E41FACB00E81064 /* DetectTapCharacterInUILabel */;
+			targetProxy = 093226711E41FACB00E81064 /* PBXContainerItemProxy */;
+		};
+		0932267D1E41FACB00E81064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0932265B1E41FACB00E81064 /* DetectTapCharacterInUILabel */;
+			targetProxy = 0932267C1E41FACB00E81064 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		093226631E41FACB00E81064 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				093226641E41FACB00E81064 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		093226681E41FACB00E81064 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				093226691E41FACB00E81064 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		093226821E41FACB00E81064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		093226831E41FACB00E81064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		093226851E41FACB00E81064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08D64B71B88E822F182BC85A /* Pods-DetectTapCharacterInUILabel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2C7UR9725U;
+				INFOPLIST_FILE = DetectTapCharacterInUILabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.pokeshops.DetectTapCharacterInUILabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		093226861E41FACB00E81064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAE5D40208B38E6DF570C7E0 /* Pods-DetectTapCharacterInUILabel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2C7UR9725U;
+				INFOPLIST_FILE = DetectTapCharacterInUILabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.pokeshops.DetectTapCharacterInUILabel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		093226881E41FACB00E81064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1788BDA41F03597A207A3449 /* Pods-DetectTapCharacterInUILabelTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2C7UR9725U;
+				INFOPLIST_FILE = DetectTapCharacterInUILabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.pokeshops.DetectTapCharacterInUILabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DetectTapCharacterInUILabel.app/DetectTapCharacterInUILabel";
+			};
+			name = Debug;
+		};
+		093226891E41FACB00E81064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B924A1601D46DCF5AF81FF9A /* Pods-DetectTapCharacterInUILabelTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2C7UR9725U;
+				INFOPLIST_FILE = DetectTapCharacterInUILabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.pokeshops.DetectTapCharacterInUILabelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DetectTapCharacterInUILabel.app/DetectTapCharacterInUILabel";
+			};
+			name = Release;
+		};
+		0932268B1E41FACB00E81064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74929600110932E011B69FA5 /* Pods-DetectTapCharacterInUILabelUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2C7UR9725U;
+				INFOPLIST_FILE = DetectTapCharacterInUILabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.pokeshops.DetectTapCharacterInUILabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DetectTapCharacterInUILabel;
+			};
+			name = Debug;
+		};
+		0932268C1E41FACB00E81064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BF1FA06B9BA6D3699E99F1B /* Pods-DetectTapCharacterInUILabelUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2C7UR9725U;
+				INFOPLIST_FILE = DetectTapCharacterInUILabelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tw.pokeshops.DetectTapCharacterInUILabelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DetectTapCharacterInUILabel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		093226571E41FACB00E81064 /* Build configuration list for PBXProject "DetectTapCharacterInUILabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093226821E41FACB00E81064 /* Debug */,
+				093226831E41FACB00E81064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		093226841E41FACB00E81064 /* Build configuration list for PBXNativeTarget "DetectTapCharacterInUILabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093226851E41FACB00E81064 /* Debug */,
+				093226861E41FACB00E81064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		093226871E41FACB00E81064 /* Build configuration list for PBXNativeTarget "DetectTapCharacterInUILabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				093226881E41FACB00E81064 /* Debug */,
+				093226891E41FACB00E81064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0932268A1E41FACB00E81064 /* Build configuration list for PBXNativeTarget "DetectTapCharacterInUILabelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0932268B1E41FACB00E81064 /* Debug */,
+				0932268C1E41FACB00E81064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 093226541E41FACB00E81064 /* Project object */;
+}
